@@ -1,0 +1,122 @@
+.signup {
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: #3D4A39;
+
+    .buy {
+        max-width: 800px;
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+
+        .buy1 {
+            max-width: 600px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+.text1{
+    color:  #FFF;
+    width: 413px;
+/* заголовок_H2 */
+font-family: Raleway;
+font-size: 46px;
+font-style: normal;
+font-weight: 600;
+line-height: 125%; /* 57.5px */
+text-transform: uppercase;
+}
+.text2{
+    color:  #FFF;
+
+/* text_16px (medium) */
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 145%; /* 23.2px */
+width: 306px;
+opacity: 0.8;
+margin-top: 20px;
+margin-bottom: 40px;
+}
+input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin-bottom: 25px;
+    width: 300px;
+    outline: none;
+}
+.copy{
+    margin-top: 27px;
+    img{
+        opacity: 0.2;
+        transition: all 0.5s;
+        &:hover{
+            opacity: 1;
+        }
+    }
+    a{
+        color: rgba(255, 255, 255, 1);
+opacity: 0.2;
+/* text_14px (medium) */
+font-family: Raleway;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 14px */
+transition: all 0.5s;
+&:hover{
+    opacity: 1;
+}
+    }
+}
+button{
+    display: flex;
+width: 300px;
+padding: 22px 56px;
+justify-content: center;
+align-items: flex-start;
+gap: 10px;
+background: #AE7B3C;
+box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+color:  #FFF;
+border: none;
+
+/* text_botton */
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 16px */
+margin-top: 42px;
+transition: all 0.5s;
+&:hover{
+    background: #775730;
+}
+margin-bottom: 27px;
+}
+.text3{
+    color: #FFF;
+    opacity: 0.2;
+
+/* text_12px (medium) */
+font-family: Raleway;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 130%; /* 15.6px */
+transition: all 0.5s;
+&:hover{
+    opacity: 1;
+}
+}

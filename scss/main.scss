@@ -1,0 +1,11 @@
+@import "./advantage.scss";
+@import "./general.scss";
+@import "./info.scss";
+@import "./normalize.scss";
+@import "./signup.scss";
+
+@media screen and (max-width:100px){
+    .advantage img{
+        display: none;
+    }
+}
